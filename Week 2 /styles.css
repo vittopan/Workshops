@@ -1,0 +1,25 @@
+div h1{
+    font-family: sans-serif;
+    margin: auto;
+    width: 50%;
+}
+table tr{
+   font-family: sans-serif; 
+}
+table{
+    border: 1px solid;
+    border-color: rgb(151, 151, 151);
+    border-radius: 3px;
+    background-color: lightgreen;
+    text-align:left;
+}
+tr, th{
+    padding-right: 25px;
+}
+#first-column{
+    background-color: black;
+    color: white;
+}
+#second-column{
+    background-color: white;
+}
