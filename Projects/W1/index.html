@@ -5,17 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice Form Page</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="myscripts.js"></script>
 </head>
 <body>
+    <div>
+        <ul id="navbar">
+            <li><a href="">Home</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+    </div>
     <div id="background">
-        
-        
         <div class = "main-box">
             <form action="/action_page.php" class="forms"></form>
             <label for="fname" class="label-text">First Name</label><br>
             <input type="text" id="fname" name="fname" value="Enter First name" class="box"><br>
             <label for="lname" class="label-text">Last Name</label><br>
-            <input type="text" id="lname" name="lname" value="Enter Last name" class="box"onclick="ClearInputField()"><br>
+            <input type="text" id="lname" name="lname" value="Enter Last name" class="box"><br>
             <label for="email" class="label-text">Email</label><br>
             <input type="text" id="email" name="email" value="Enter Email" class="box"><br>
             <label for="Message">Message</label><br>
@@ -23,9 +30,6 @@
             <br>
             <input type="submit" class="submit">
         </div>
-
-
-
     </div>
 </body>
 </html>
