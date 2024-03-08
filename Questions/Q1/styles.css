@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+}
+/* Class used to center the div */
+.center{
+    margin: auto;
+    width: 50%;
+}
+.image{
+    height: 50px;
+    width:100px;
+}
+#table, tr, td, th{
+    background-color: rgb(231, 231, 231);
+    border:2px solid rgb(194, 194, 194);
+    border-collapse: collapse;
+}
+td:hover{
+    background-color: rgb(146, 146, 146);
+    font-weight: bolder;
+    border:2px solid rgb(88, 88, 255);
+    
+}
+tr{
+    min-width: min-content;
+}
+th{
+    height: 50px;
+    width: 80px;
+}
