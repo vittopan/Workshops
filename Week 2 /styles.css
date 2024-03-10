@@ -11,6 +11,7 @@ table{
     background-color: lightgreen;
     text-align: center;
     font-family: sans-serif;
+    border-collapse: collapse;
 }
 tr, th{
     padding-right: 25px;
@@ -22,18 +23,14 @@ tr, td:hover{
     margin: 0px;
     padding-top: 3px;
     padding-bottom: 3px;
+    border-collapse: collapse;
 }
 tr:hover{
     background-color: gray;
 }
-tr:hover{
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-}
+
 #first-column{
     background-color: black;
     color: white;
 }
-#second-column{
-    background-color: white;
-}
+
